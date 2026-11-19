@@ -1,0 +1,19 @@
+# Local datasets: download from Kaggle instead of committing them.
+train.csv
+test.csv
+sample_submission.csv
+EV_Adoption_and_Range_Anxiety_Dataset.csv
+
+# Training artefacts and large local archives
+outputs/
+*.zip
+S6E9_research_assets.npz
+
+# Local Python / macOS / notebook files
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.matplotlib/
+catboost_info/
+*.pyc
