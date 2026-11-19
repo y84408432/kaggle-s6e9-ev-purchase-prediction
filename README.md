@@ -3,6 +3,16 @@
 **Final Private AUC: 0.94544 · Rank: 350/3576 (Top 9.8%)**  
 Competition: [Kaggle Playground Series S6E9 — Predicting Electric Vehicle Purchases](https://www.kaggle.com/competitions/playground-series-s6e9)
 
+## 中文摘要
+
+本项目基于 Kaggle Playground Series S6E9 电动汽车购买预测竞赛，采用 OOF（Out-of-Fold）验证框架，对 Logistic Regression、LightGBM、CatBoost、XGBoost 等模型进行比较，并研究收入特征精细化、交叉拟合目标统计、结构约束及模型预测融合等方法。
+
+**最终成绩：Private AUC 0.94544，排名 350/3576（Top 9.8%）。**
+
+注：最终竞赛提交使用了内部模型融合及外部公开预测结果，最终榜单成绩不等同于自主训练模型的 OOF 验证成绩。
+
+完整研究过程、实验结果和复现说明见下方英文文档。
+
 ## Overview
 
 An OOF-first tabular binary-classification study examining feature resolution, cross-fitted target statistics, structural constraints, prediction diversity, and rank ensembles. The target is `Will_Buy_EV`; evaluation is ROC-AUC.
